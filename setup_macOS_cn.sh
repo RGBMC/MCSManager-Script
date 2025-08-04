@@ -103,7 +103,7 @@ if [ ! -w "$INSTALL_DIR" ]; then
 fi
 echo "目录权限检查通过。"
 
-MCSM_TAR_URL="https://github.com/MCSManager/MCSManager/releases/latest/download/mcsmanager_linux_release.tar.gz"
+MCSM_TAR_URL="https://github.com/RGBMC/MCSManager-Dev-CI/releases/latest/download/mcsmanager_linux_release.tar.gz"
 MCSM_TAR_FILE="$INSTALL_DIR/mcsmanager_linux_release.tar.gz"
 
 echo "下载 MCSManager Release ($MCSM_TAR_URL) 到 $MCSM_TAR_FILE"
